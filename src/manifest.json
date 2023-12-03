@@ -1,11 +1,10 @@
 {
   "manifest_version": 3,
   "author": "Robert Sibek 2023",
-  "name": "CSFD Titulky",
-  "description": "Přidá odkaz na titulky.com pro daný film",
+  "name": "Titulky pro CSFD",
+  "description": "Přidá odkaz na titulky u zobrazeného filmu",
   "version": "0.0.0.1",
   "action": {
-    "default_popup": "csfd_titulky.html",
     "default_icon": "images/Icon@8x.png"
   },
   "icons": {
@@ -18,8 +17,7 @@
   "content_scripts": [
     {
       "js": [
-        "scripts/content.js",
-        "scripts/main.js"
+        "scripts/content.js"
       ],
       "matches": [
         "https://www.csfd.cz/film/*"
