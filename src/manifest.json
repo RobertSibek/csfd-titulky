@@ -3,7 +3,7 @@
   "author": "Robert Sibek 2023",
   "name": "Titulky pro CSFD",
   "description": "Přidá odkaz na titulky u zobrazeného filmu",
-  "version": "0.0.0.1",
+  "version": "0.0.2",
   "action": {
     "default_icon": "images/Icon@8x.png"
   },
